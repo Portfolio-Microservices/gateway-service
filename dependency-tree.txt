@@ -1,0 +1,30 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.portfolio:gateway-service >--------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.6.1:tree (default-cli) @ gateway-service ---
+[INFO] com.portfolio:gateway-service:jar:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-actuator:jar:3.2.5:compile
+[INFO] |  \- org.springframework.boot:spring-boot-starter:jar:3.2.5:compile
+[INFO] |     \- org.springframework.boot:spring-boot:jar:3.2.5:compile
+[INFO] |        \- org.springframework:spring-context:jar:6.1.7:compile
+[INFO] |           +- org.springframework:spring-aop:jar:6.1.7:compile
+[INFO] |           \- org.springframework:spring-expression:jar:6.1.7:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-gateway:jar:4.1.6:compile
+[INFO] |  \- org.springframework.boot:spring-boot-starter-webflux:jar:3.2.5:compile
+[INFO] |     +- org.springframework:spring-web:jar:6.1.7:compile
+[INFO] |     |  \- org.springframework:spring-beans:jar:6.1.7:compile
+[INFO] |     \- org.springframework:spring-webflux:jar:6.1.7:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-test:jar:3.2.5:test
+[INFO]    +- org.springframework:spring-core:jar:6.1.7:compile
+[INFO]    |  \- org.springframework:spring-jcl:jar:6.1.7:compile
+[INFO]    \- org.springframework:spring-test:jar:6.1.7:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.185 s
+[INFO] Finished at: 2026-07-12T16:29:30+05:30
+[INFO] ------------------------------------------------------------------------
